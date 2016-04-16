@@ -4,8 +4,8 @@ personal_history_made_by_html5
 
 Making personal history made by reStructuredtext, HTML5 and CSS3
 
-どうやるの？
------------------
+[WIP] どうやるの？
+-------------------------
 
 1. このリポジトリをクローンしてください。
 2. personal_history.rstファイルをあなたの内容に書きかえてください。
@@ -17,7 +17,7 @@ Making personal history made by reStructuredtext, HTML5 and CSS3
 5. Webプラウザであなたの履歴書を印刷してください。
 6. デザインで気に入らない事があれば編集するなりフォークするなりプルリク投げてください。
 
-How to making personal history?
+[WIP] How to making personal history?
 ---------------------------------------
 
 1. This repository clone.
