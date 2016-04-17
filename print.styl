@@ -1,5 +1,6 @@
 /* 変数定義 */
 fonts = "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif
+fonts-gothic = "ヒラギノ角ゴ Pro W3","メイリオ",Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif
 font-size = 14pt
 
 body
@@ -7,25 +8,38 @@ body
     background white
 
 article.print_page
-    width 182mm
-    height 257mm
+    width 210mm
+    height 297mm
     page-break-after always
-
     :last-child
         page-break-after auto
 
+header#header
+    h1
+        font-size 150%
+        float left
+    p
+        font-size 50%
+        float right
+
 section
-    clear all
-
-h2
-    display none
-
-dt
-    float left
     border solid 0.5mm black
+    border-bottom none
+    clear both
+    :last-child
+        border-bottom solid 0.5mm black
+    h1
+        font 50% fonts
+        margin 0
+    p
+        margin 0
 
-dd
-    border solid 0.5mm black
+    header.ruby
+        border-bottom dashed 0.3mm black
+        float left
+        width 100%
+        h1
+                margin 0
 
 table
     border solid 1mm black
@@ -33,9 +47,16 @@ table
     width 100%
 
 th, td
-    border solid 1mm black
+    border solid 0.5mm black
     border-collapse collapse
 
 td
-    border solid 0.5mm black
-    text-align center
+    border solid 0.3mm black
+    .center
+        text-align center
+    .right
+        text-align right
+
+ul
+    list-style-type none
+    list-style-position inside

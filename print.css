@@ -4,25 +4,43 @@ body {
   background: #fff;
 }
 article.print_page {
-  width: 182mm;
-  height: 257mm;
+  width: 210mm;
+  height: 297mm;
   page-break-after: always;
 }
 article.print_page :last-child {
   page-break-after: auto;
 }
-section {
-  clear: all;
-}
-h2 {
-  display: none;
-}
-dt {
+header#header h1 {
+  font-size: 150%;
   float: left;
-  border: solid 0.5mm #000;
 }
-dd {
+header#header p {
+  font-size: 50%;
+  float: right;
+}
+section {
   border: solid 0.5mm #000;
+  border-bottom: none;
+  clear: both;
+}
+section :last-child {
+  border-bottom: solid 0.5mm #000;
+}
+section h1 {
+  font: 50% "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  margin: 0;
+}
+section p {
+  margin: 0;
+}
+section header.ruby {
+  border-bottom: dashed 0.3mm #000;
+  float: left;
+  width: 100%;
+}
+section header.ruby h1 {
+  margin: 0;
 }
 table {
   border: solid 1mm #000;
@@ -31,10 +49,19 @@ table {
 }
 th,
 td {
-  border: solid 1mm #000;
+  border: solid 0.5mm #000;
   border-collapse: collapse;
 }
 td {
-  border: solid 0.5mm #000;
+  border: solid 0.3mm #000;
+}
+td .center {
   text-align: center;
+}
+td .right {
+  text-align: right;
+}
+ul {
+  list-style-type: none;
+  list-style-position: inside;
 }
