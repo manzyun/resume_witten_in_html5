@@ -17,6 +17,8 @@ You edit this for you.
 4. Webプラウザであなたの履歴書を印刷してください。
 5. デザインで気に入らない事があれば編集するなりフォークするなりプルリク投げてください。
 
+このソースコードを利用して新たにWebサービスを作っても、私は何も文句はいいません。
+
 How to making personal history?
 ---------------------------------------
 
@@ -25,3 +27,5 @@ How to making personal history?
 3. Open web browser "personal_history.html"
 4. Print your personal history on web browser.
 5. If you don't like this design then edit, fork or pull request.
+
+I'm not complant if you make new web service and other use of this code.
