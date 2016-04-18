@@ -1,62 +1,116 @@
 /* 変数定義 */
-fonts = "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif
-fonts-gothic = "ヒラギノ角ゴ Pro W3","メイリオ",Osaka,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif
+fonts = "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif
+fonts-gothic = "ヒラギノ角ゴ Pro W3", "メイリオ", Osaka, Arial, Verdana, "ＭＳ Ｐゴシック", sans-serif
 font-size = 14pt
 
 body
-    font font-size fonts
-    background white
+  font font-size fonts
+  background white
 
 article.print_page
-    width 210mm
-    height 297mm
-    page-break-after always
-    :last-child
-        page-break-after auto
+  width 210mm
+  height 297mm
+  page-break-after always
+  :last-child
+    page-break-after auto
 
-header#header
-    h1
-        font-size 150%
-        float left
-    p
-        font-size 50%
-        float right
+      text-align: right
 
 section
-    border solid 0.5mm black
-    border-bottom none
-    clear both
-    :last-child
-        border-bottom solid 0.5mm black
-    h1
-        font 50% fonts
-        margin 0
-    p
-        margin 0
-
-    header.ruby
-        border-bottom dashed 0.3mm black
-        float left
-        width 100%
-        h1
-                margin 0
+  clear both
+  h1
+    font-size 50%
+    margin 0
+  p
+    margin 0
+    margin-left 5mm
 
 table
-    border solid 1mm black
-    border-collapse collapse
-    width 100%
-
-th, td
+  width 100%
+  border solid 0.5mm black
+  border-collapse collapse
+  margin 1mm 0
+  th
+    text-align center
+    font-family fonts-gothic
     border solid 0.5mm black
-    border-collapse collapse
-
-td
-    border solid 0.3mm black
-    .center
-        text-align center
-    .right
-        text-align right
+  td
+    border solid 0.5mm black
 
 ul
-    list-style-type none
-    list-style-position inside
+  border-bottom solid 0.5mm black
+  list-style none
+  :last-child
+    border-bottom none
+
+.clear
+  clear both
+  hr
+    display none
+
+.ruby
+  border-bottom dashed 0.3mm black
+  width 100%
+  h1
+    float left
+    margin 0
+    margin-right 5mm
+  p
+    font-size 50%
+
+
+.center
+  text-align center
+
+.right
+  text-align right
+
+.tel,.phone,.other_contact
+  border solid 0.5mm black
+
+
+
+#header
+  h1
+    font-size 150%
+    font-family fonts-gothic
+    float left
+    margin 0
+  p
+    font-size 60%
+    text-align right
+    width 100%
+
+#box1
+  width 70%
+  border-style solid
+  border-width 0.5mm
+
+#name
+  border-bottom solid 0.5mm black
+  clear both
+  p
+    margin-left 5mm
+
+#box2
+  width 100%
+  border solid 0.5mm black
+
+#post
+  font-size 80%
+
+#address
+  border-bottom solid 0.5mm black
+
+#PR, #skill, #motive
+  border solid 0.5mm black
+  margin 1mm 0
+
+#commuting_time, #dependant, #spouse, #supporting_duty
+  border solid 0.5mm black
+
+#request
+  border solid 0.5mm black
+  margin 1mm 0
+  h1
+    border-bottom solid 0.5mm black

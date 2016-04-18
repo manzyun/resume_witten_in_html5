@@ -8,60 +8,119 @@ article.print_page {
   height: 297mm;
   page-break-after: always;
 }
-article.print_page :last-child {
-  page-break-after: auto;
-}
-header#header h1 {
-  font-size: 150%;
-  float: left;
-}
-header#header p {
-  font-size: 50%;
-  float: right;
+article.print_page :last-child page-break-after auto {
+  text-align: right;
 }
 section {
-  border: solid 0.5mm #000;
-  border-bottom: none;
   clear: both;
 }
-section :last-child {
-  border-bottom: solid 0.5mm #000;
-}
 section h1 {
-  font: 50% "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 50%;
   margin: 0;
 }
 section p {
   margin: 0;
-}
-section header.ruby {
-  border-bottom: dashed 0.3mm #000;
-  float: left;
-  width: 100%;
-}
-section header.ruby h1 {
-  margin: 0;
+  margin-left: 5mm;
 }
 table {
-  border: solid 1mm #000;
-  border-collapse: collapse;
   width: 100%;
-}
-th,
-td {
   border: solid 0.5mm #000;
   border-collapse: collapse;
+  margin: 1mm 0;
 }
-td {
-  border: solid 0.3mm #000;
-}
-td .center {
+table th {
   text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3", "メイリオ", Osaka, Arial, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  border: solid 0.5mm #000;
 }
-td .right {
-  text-align: right;
+table td {
+  border: solid 0.5mm #000;
 }
 ul {
-  list-style-type: none;
-  list-style-position: inside;
+  border-bottom: solid 0.5mm #000;
+  list-style: none;
+}
+ul :last-child {
+  border-bottom: none;
+}
+.clear {
+  clear: both;
+}
+.clear hr {
+  display: none;
+}
+.ruby {
+  border-bottom: dashed 0.3mm #000;
+  width: 100%;
+}
+.ruby h1 {
+  float: left;
+  margin: 0;
+  margin-right: 5mm;
+}
+.ruby p {
+  font-size: 50%;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.tel,
+.phone,
+.other_contact {
+  border: solid 0.5mm #000;
+}
+#header h1 {
+  font-size: 150%;
+  font-family: "ヒラギノ角ゴ Pro W3", "メイリオ", Osaka, Arial, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  float: left;
+  margin: 0;
+}
+#header p {
+  font-size: 60%;
+  text-align: right;
+  width: 100%;
+}
+#box1 {
+  width: 70%;
+  border-style: solid;
+  border-width: 0.5mm;
+}
+#name {
+  border-bottom: solid 0.5mm #000;
+  clear: both;
+}
+#name p {
+  margin-left: 5mm;
+}
+#box2 {
+  width: 100%;
+  border: solid 0.5mm #000;
+}
+#post {
+  font-size: 80%;
+}
+#address {
+  border-bottom: solid 0.5mm #000;
+}
+#PR,
+#skill,
+#motive {
+  border: solid 0.5mm #000;
+  margin: 1mm 0;
+}
+#commuting_time,
+#dependant,
+#spouse,
+#supporting_duty {
+  border: solid 0.5mm #000;
+}
+#request {
+  border: solid 0.5mm #000;
+  margin: 1mm 0;
+}
+#request h1 {
+  border-bottom: solid 0.5mm #000;
 }
