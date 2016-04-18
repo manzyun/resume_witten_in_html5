@@ -1,12 +1,11 @@
 #######################################
-[WIP]Personal history made by html5
+[WIP]Resume made by html5
 #######################################
 
 HTML5とCSS3で作る履歴書です。
 あなたはこの履歴書を自分用に書き換えてください。
 
-Making personal history made by HTML5 and CSS3.
-You edit this for you.
+Resume made by HTML5 and CSS. You can edit for your own.
 
 どうやるの？
 -------------------------
@@ -19,13 +18,13 @@ You edit this for you.
 
 このソースコードを利用して新たにWebサービスを作っても、私は何も文句はいいません。
 
-How to making personal history?
+How to get your Resume.
 ---------------------------------------
 
-1. This repository clone.
-2. Edit personal_history.html for you.
-3. Open web browser "personal_history.html"
-4. Print your personal history on web browser.
+1. Clone this repository.
+2. Edit personal_history.html.
+3. Open ./personal_history.html in your web browser.
+4. Print it.
 5. If you don't like this design then edit, fork or pull request.
 
 I'm not complant if you make new web service and other use of this code.
