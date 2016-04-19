@@ -3,6 +3,12 @@ fonts = "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho Pr
 fonts-gothic = "ヒラギノ角ゴ Pro W3", "メイリオ", Osaka, Arial, Verdana, "ＭＳ Ｐゴシック", sans-serif
 font-size = 14pt
 
+display-box()
+  display -webkit-box
+  display -moz-box
+  display -o-box
+  display -ms-box
+
 body
   font font-size fonts
   background white
@@ -87,11 +93,19 @@ ul
   border-style solid
   border-width 0.5mm
 
+#box1-1
+  display-box()
+  box-orient horizontal
+
 #name
   border-bottom solid 0.5mm black
   clear both
   p
     margin-left 5mm
+
+#birthday
+  width 80%
+  border-right solid 0.5mm black
 
 #box2
   width 100%
@@ -102,6 +116,18 @@ ul
 
 #address
   border-bottom solid 0.5mm black
+
+#box3
+  display-box()
+  box-orient horizontal
+
+#box3-1
+  display-box()
+  box-orient vertical
+
+#box3-2
+  display-box()
+  box-orient horizontal
 
 #PR, #skill, #motive
   border solid 0.5mm black

@@ -87,12 +87,23 @@ ul :last-child {
   border-style: solid;
   border-width: 0.5mm;
 }
+#box1-1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: -ms-box;
+  box-orient: horizontal;
+}
 #name {
   border-bottom: solid 0.5mm #000;
   clear: both;
 }
 #name p {
   margin-left: 5mm;
+}
+#birthday {
+  width: 80%;
+  border-right: solid 0.5mm #000;
 }
 #box2 {
   width: 100%;
@@ -103,6 +114,27 @@ ul :last-child {
 }
 #address {
   border-bottom: solid 0.5mm #000;
+}
+#box3 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: -ms-box;
+  box-orient: horizontal;
+}
+#box3-1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: -ms-box;
+  box-orient: vertical;
+}
+#box3-2 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: -ms-box;
+  box-orient: horizontal;
 }
 #PR,
 #skill,
