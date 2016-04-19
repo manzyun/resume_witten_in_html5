@@ -11,8 +11,8 @@ Resume made by HTML5 and CSS. You can edit for your own.
 -------------------------
 
 1. このリポジトリをクローンしてください。
-2. personal_history.htmlファイルをあなたの内容に書きかえてください。
-3. Webブラウザで"personal_history.html"を開いてください。
+2. resume.htmlファイルをあなたの内容に書きかえてください。
+3. Webブラウザで"resume.html"を開いてください。
 4. Webプラウザであなたの履歴書を印刷してください。
 5. デザインで気に入らない事があれば編集するなりフォークするなりプルリク投げてください。
 
@@ -22,8 +22,8 @@ How to get your Resume.
 ---------------------------------------
 
 1. Clone this repository.
-2. Edit personal_history.html.
-3. Open ./personal_history.html in your web browser.
+2. Edit resume.html.
+3. Open ./resume.html in your web browser.
 4. Print it.
 5. If you don't like this design then edit, fork or pull request.
 
