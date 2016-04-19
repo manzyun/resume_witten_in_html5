@@ -43,11 +43,10 @@ ul {
 ul :last-child {
   border-bottom: none;
 }
-.clear {
+.clearfix:after {
+  content: "";
   clear: both;
-}
-.clear hr {
-  display: none;
+  display: block;
 }
 .ruby {
   border-bottom: dashed 0.3mm #000;
