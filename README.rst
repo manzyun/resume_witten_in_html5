@@ -1,11 +1,11 @@
 #######################################
-[WIP]Resume made by html5
+[WIP]Resume written in html5
 #######################################
 
 HTML5とCSS3で作る履歴書です。
 あなたはこの履歴書を自分用に書き換えてください。
 
-Resume made by HTML5 and CSS. You can edit for your own.
+Resume written in HTML5 and CSS. You can edit for your own.
 
 どうやるの？
 -------------------------
