@@ -8,8 +8,8 @@ article.print_page {
   height: 297mm;
   page-break-after: always;
 }
-article.print_page :last-child page-break-after auto {
-  text-align: right;
+article.print_page :last-child {
+  page-break-after: auto;
 }
 section {
   clear: both;
@@ -115,38 +115,19 @@ ul :last-child {
 #address {
   border-bottom: solid 0.5mm #000;
 }
-#box3 {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -o-box;
-  display: -ms-box;
-  box-orient: horizontal;
-}
-#box3-1 {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -o-box;
-  display: -ms-box;
-  box-orient: vertical;
-}
-#box3-2 {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -o-box;
-  display: -ms-box;
-  box-orient: horizontal;
-}
 #PR,
-#skill,
-#motive {
+#skill {
   border: solid 0.5mm #000;
   margin: 1mm 0;
 }
-#commuting_time,
-#dependant,
-#spouse,
-#supporting_duty {
+#box3 {
   border: solid 0.5mm #000;
+}
+#box3-1 #spouse {
+  float: left;
+}
+#box3-1 #supporting_duty {
+  overflow: auto;
 }
 #request {
   border: solid 0.5mm #000;

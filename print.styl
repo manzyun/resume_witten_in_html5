@@ -20,8 +20,6 @@ article.print_page
   :last-child
     page-break-after auto
 
-      text-align: right
-
 section
   clear both
   h1
@@ -117,24 +115,19 @@ ul
 #address
   border-bottom solid 0.5mm black
 
-#box3
-  display-box()
-  box-orient horizontal
 
-#box3-1
-  display-box()
-  box-orient vertical
-
-#box3-2
-  display-box()
-  box-orient horizontal
-
-#PR, #skill, #motive
+#PR, #skill
   border solid 0.5mm black
   margin 1mm 0
 
-#commuting_time, #dependant, #spouse, #supporting_duty
+#box3
   border solid 0.5mm black
+
+#box3-1
+  #spouse
+    float left
+  #supporting_duty
+    overflow auto
 
 #request
   border solid 0.5mm black
